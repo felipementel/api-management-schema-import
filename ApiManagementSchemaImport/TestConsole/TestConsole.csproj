@@ -2,11 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Microsoft.Azure.ApiManagement.WsdlProcessor.Common\Microsoft.Azure.ApiManagement.WsdlProcessor.Common.csproj" />
+    <ProjectReference Include="..\Microsoft.Azure.ApiManagement.Common\Microsoft.Azure.ApiManagement.Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>
